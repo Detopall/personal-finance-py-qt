@@ -58,7 +58,6 @@
      <string>Advanced</string>
     </property>
     <addaction name="actionCharts"/>
-    <addaction name="actionCurrency_Exchange"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuAdvanced"/>
@@ -214,15 +213,6 @@
    </property>
    <property name="menuRole">
     <enum>QAction::MenuRole::NoRole</enum>
-   </property>
-  </action>
-  <action name="actionCurrency_Exchange">
-   <property name="icon">
-    <iconset resource="resource.qrc">
-     <normaloff>:/assets/currency.png</normaloff>:/assets/currency.png</iconset>
-   </property>
-   <property name="text">
-    <string>Currency Exchange</string>
    </property>
   </action>
  </widget>

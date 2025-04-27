@@ -1,6 +1,8 @@
 # Personal Finance Application
 
-A personal finance application for tracking expenses and income. It includes a table for entering financial data, a pie chart for visualizing expenses and incomes per description, and a line chart for visualizing money over time. The application allows users to export the data to a PDF file.
+A personal finance application for tracking expenses and income. It includes a table for entering financial data, a pie chart for visualizing expenses and incomes per description, and a line chart for visualizing money over time. The application allows users to export the data to a PDF file. Check out the demo video below:
+
+[![Demo Video](https://img.youtube.com/vi/u5Vj-2S6s9g/0.jpg)](https://www.youtube.com/watch?v=u5Vj-2S6s9g)
 
 ## Features
 

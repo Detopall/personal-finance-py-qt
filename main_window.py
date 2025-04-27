@@ -46,7 +46,6 @@ class MainWindow(QMainWindow):
 		self.ui.actionRedo.triggered.connect(self.redo)
 		self.ui.actionSave.triggered.connect(self.save)
 		self.ui.actionExportToPdf.triggered.connect(self.export_to_pdf)
-		self.ui.actionCurrency_Exchange.triggered.connect(self.currency_exchange)
 
 		self.ui.tableWidget.cellClicked.connect(self._on_cell_clicked)
 		self.ui.tableWidget.itemChanged.connect(self._on_item_changed)
@@ -154,8 +153,7 @@ class MainWindow(QMainWindow):
 				"2. Edit the CSV file.\n"
 				"3. Save the CSV file.\n"
 				"4. Export the CSV file to PDF.\n\n"
-				"You can also view the charts of your finances (Advanced/Charts) and "
-				"currency exchange rates (Advanced/Currency Exchange).\n\n"
+				"You can also view the charts of your finances (Advanced/Charts).\n\n"
 				"Created by Denis Topallaj.\n© 2025 All rights reserved."
 			),
 			icon=QMessageBox.Icon.Information,
@@ -203,7 +201,3 @@ class MainWindow(QMainWindow):
 	def export_to_pdf(self) -> None:
 		"""Export the current data directly to a PDF."""
 		self.save_to_pdf()
-
-	def currency_exchange(self) -> None:
-		"""Placeholder for the currency exchange feature."""
-		pass
