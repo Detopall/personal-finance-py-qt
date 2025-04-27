@@ -1,0 +1,13 @@
+<RCC>
+  <qresource>
+    <file>assets/charts.png</file>
+    <file>assets/currency.png</file>
+    <file>assets/pdf.png</file>
+    <file>assets/save.png</file>
+    <file>assets/csv-file.png</file>
+  </qresource>
+  <qresource>
+    <file>assets/redo.png</file>
+    <file>assets/undo.png</file>
+  </qresource>
+</RCC>
